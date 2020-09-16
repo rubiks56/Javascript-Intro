@@ -1,17 +1,20 @@
 let nameEl = document.getElementById('name')
 console.log('name')
-nameEl.innerHTML = 'DisplayThis'
 console.log(nameEl)
-let name = prompt('What is your name?')
-let score1 = prompt('Test Score 1:')
-let score2 = prompt('Test Score 2')
-let score3 = prompt('Test Score 3')
+let adj1 = prompt('Adjective:')
+let nationality1 = prompt('Nationality')
+let name1 = prompt('Name')
+let noun1 = prompt('Noun')
+let adj2 = prompt('Adjective')
+let noun2 = prompt('Noun')
+let adj3 = prompt('Adjective')
+let adj4 = prompt('Adjective')
+let pluralnoun = prompt('Plural Noun')
+let noun3 = prompt('Noun')
+let num1 = prompt('Number')
+let shape = prompt('Shape')
+let food1 = prompt('Food')
+let food2 = prompt('Food')
 
-score1 = parseInt(score1, 10)
-score2 = parseInt(score2, 10)
-score3 = parseInt(score3, 10)
-
-let average = (score1 + score2 + score3) / 3
-console.log(`Hello, ${name}. Your average score is ${average}.`)
-nameEl.innerHTML = (`Hello, ${name}. Your average score is ${average}.`)
+nameEl.innerHTML = `Pizza was invented by a ${adj1} ${nationality1} chef named ${name1}. To make a pizza, you need to take a lump of ${noun1}, and make a thin, round ${adj2} ${noun2}. Then you cover it with ${adj3}, ${adj4} cheese, and fresh chopped ${pluralnoun}. Next, you have to bake it in a very hot ${noun3}. When it is done, cut it into ${num1} ${shape}s. Some kids like ${food1} pizza the best, but my favorite is the ${food2} pizza.`
 //Students enter name, three individual test scores 0-100, one by one
